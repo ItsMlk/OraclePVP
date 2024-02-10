@@ -1,0 +1,11 @@
+name: OraclePVP
+version: '1.0'
+main: ir.itzmlk.oracle.oraclepvp.OraclePVP
+commands:
+  duel:
+    description: StartDuel
+    usage: /duel
+  duelyes:
+    description: StartDuel
+    usage: /duelyes
+

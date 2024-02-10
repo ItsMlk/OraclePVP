@@ -1,0 +1,31 @@
+spawn-world: "world"
+spawn-x: 64
+spawn-y: 64
+spawn-z: 64
+arena-worlds:
+  PVPARENA:
+    arena-pos1-x: 1
+    arena-pos1-y: 1
+    arena-pos1-z: 1
+    arena-pos2-x: 1
+    arena-pos2-y: 1
+    arena-pos2-z: 1
+    spawn-x-player1: 1140
+    spawn-z-player1: -318
+    spawn-y-player1: 5
+    spawn-x-player2: 1140
+    spawn-z-player2: -304
+    spawn-y-player2: 5
+message:
+  failed-to-start: "Faild to start Duel"
+  duel-sended: "Duel Sended"
+  duel-recived: "recived duel req for accsept '/duelyes {username}'"
+  duel-started: "DUEL STARTED"
+  VICTORY: "VICTORY"
+  GAME_OVER: "GAME OVER"
+SqlHost:
+  host: localhost
+  port: 3306
+  database: "minecraft"
+  user: root
+  password: ""
